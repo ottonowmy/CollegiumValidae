@@ -84,7 +84,7 @@ export default function Home() {
 
 
   const handleDownloadPdf = async () => {
-    const element = cvPreviewRef.current
+    const element = cvPreviewPdfRef.current
     if (element) {
       try {
         const canvas = await html2canvas(element, {
@@ -312,7 +312,8 @@ const cvPreviewPdfRef = useRef<HTMLDivElement>(null);
             <div
               className="flex justify-center items-center"
               style={{
-                transform: `scale(${zoom / 200})`
+                transform: `scale(${zoom / 200})`,
+                
               }}
             >
               <CVPreview
