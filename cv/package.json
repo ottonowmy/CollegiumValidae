@@ -1,13 +1,15 @@
 {
-  "name": "cv",
+  "name": "collegiumvalidae",
+  "homepage": "https://ottonowmy.github.io/CollegiumValidae",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
+    "lint": "eslint .",
     "export": "next export",
+    "predeploy": "next build && next export",
     "deploy": "gh-pages -d out"
   },
   "dependencies": {
