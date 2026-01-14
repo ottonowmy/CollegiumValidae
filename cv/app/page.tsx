@@ -146,7 +146,7 @@ const cvPreviewPdfRef = useRef<HTMLDivElement>(null);
         <section className="flex items-center h-screen">
           <div className="w-1/3 h-full p-10 bg-base-200 scrollable no-scrollbar">
             <div className="mb-4 flex justify-between items-center">
-              <h1 className="text-2xl font-bold italic">Collégium <span className="text-primary">Validae</span></h1>
+              <h1 className="text-2xl font-bold italic">Otto<span className="text-primary">nowmy</span></h1>
 
               <button onClick={handleDownloadPdf} className="btn btn-accent">Télécharger< Download className="w-4" /></button>
             </div>
